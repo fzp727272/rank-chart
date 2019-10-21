@@ -1,0 +1,106 @@
+.tag-container {
+  overflow: hidden;
+//   overflow-y: auto;
+  flex: 1;
+  // right:$paddingSize*2;
+  // width:100px;
+  height: 100%;
+  // text-align: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 $paddingSize $paddingSize $paddingSize;
+  .tag-list {
+    padding: $paddingSize 0;
+    // border-bottom: .5px solid #333;
+    // height:30px;
+    width: 100%;
+    // line-height: 30px;
+    color: $medium-grey;
+    font-size: 12px;
+    .tag-condition {
+      padding: $paddingSize 0;
+      font-size: 14px;
+      .tag-condition-icon {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-right: $paddingSize;
+      }
+    }
+    .tag-success {
+      color: $greenColor;
+
+      .tag-success-icon {
+        background: $greenColor;
+      }
+    }
+    .tag-warning {
+      color: $yellowColor;
+
+      .tag-warning-icon {
+        background: $yellowColor;
+      }
+    }
+    .tag-failed {
+      color: $redColor;
+
+      .tag-failed-icon {
+        background: $redColor;
+      }
+    }
+    .tag-list-content {
+      float: left;
+    }
+    .tag-list-time {
+      float: right;
+    }
+    .color-tip {
+      // background: red;
+      width: $paddingSize / 3 * 2;
+      height: $paddingSize / 3 * 2;
+      border-radius: $paddingSize / 3 * 2;
+      display: inline-block;
+      margin-right: $paddingSize / 2;
+    }
+  }
+}
+
+#KPI-tag-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  // border-top: 1px solid $medium-grey;
+  margin-top: $paddingSize;
+  padding-top: $paddingSize;
+  .kpi-column{
+      flex:1;
+      display:flex;
+  }
+  .kpi-tag-item {
+flex: 1;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    // height:30px;
+    color: $light-grey;
+    font-size: 12px;
+    padding-left: $paddingSize;
+    .progress-bar{
+        display: inline-block;
+        width: 100px;
+        height: 5px;
+        border-radius: 5px;
+        overflow: hidden;
+        background: rgba(0,0,0,.3);
+        margin-left: $paddingSize;
+        .progress-bar-active{
+            // background: red;
+            height: 5px;
+        }
+    }
+  }
+}
