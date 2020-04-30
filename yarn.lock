@@ -1552,6 +1552,13 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+echarts@^4.2.0-rc.2:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-4.7.0.tgz#5b3875a4c2f91e3929425fabab9eace7e4098b3f"
+  integrity sha512-NlOTdUcAsIyCCG+N4uh0ZEvXtrPW2jvcuqf03RyqYeCKzyPbiOQ4I3MdKXMhxG3lBdqQNdNXVT71SB4KTQjN0A==
+  dependencies:
+    zrender "4.3.0"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -3353,10 +3360,17 @@ jpegtran-bin@^3.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
-jquery@^3.1.1:
-  version "3.3.1"
-  resolved "http://registry.npm.taobao.org/jquery/download/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-  integrity sha1-lYzinoHJeQ8xvneS311NlfxX+8o=
+jquery-circle-progress@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/jquery-circle-progress/-/jquery-circle-progress-1.2.2.tgz#260e9130ac8e2b5572eaa7a93b9e8a6b27bc8eea"
+  integrity sha1-Jg6RMKyOK1Vy6qepO56Kaye8juo=
+  dependencies:
+    jquery "*"
+
+jquery@*, jquery@^3.1.1:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.9"
@@ -6618,3 +6632,8 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "http://registry.npm.taobao.org/yeast/download/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
   integrity sha1-AI4G2AlDIMNy28L47XagymyKxBk=
+
+zrender@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-4.3.0.tgz#9f056121b20bbae44414d287bf6a119ff7042661"
+  integrity sha512-Dii6j2bDsPkxQayuVf2DXJeruIB/mKVxxcGRZQ9GExiBd4c3w7+oBuvo1O/JGHeFeA1nCmSDVDs/S7yKZG1nrA==
